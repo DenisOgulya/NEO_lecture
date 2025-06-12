@@ -1,0 +1,16 @@
+from datetime import date, datetime, timedelta
+since = date(2025, 6, 5)
+
+today = date.today()
+
+days = (today - since).days
+
+for i in range(days+1):
+    d = since + timedelta(days = i)
+    print(d)
+    
+    
+    
+   
+ 
+ 
